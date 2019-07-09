@@ -11,9 +11,9 @@ class dice {
     System.out.println("Die1 : " + dice1);
     Syetem.out.println("Die2 : " + dice2);
     if(number > 7) {
-	System.out.println("You won");
+	System.out.println(name + " won");
     }else {
-	System.out.println("You lost");
+	System.out.println(name + " lost");
     }
   }
 }
