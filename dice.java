@@ -6,5 +6,10 @@ class dice {
     int number = dice1 + dice2;
     System.out.println("Die1 : " + dice1);
     Syetem.out.println("Die2 : " + dice2);
+    if(number > 7) {
+	System.out.println("You won");
+    }else {
+	System.out.println("You lost");
+    }
   }
 }
